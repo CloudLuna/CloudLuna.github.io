@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<!-- Doctype for html5 -->
 <html>
     <head>
         <b>This is the head. My projects</b>
         <title>Tab Title</title>
         <!-- head definitions go here -->
+        <meta http-equiv="author" content="CloudLuna" />
+        <!-- <meta> gives inf about the website, not seen by user, for engines, etc-->
     </head>
     <body>
         <br><a href="https://cloudluna.github.io/helloworld.html"> Project 1: Hello World </a>
@@ -16,7 +19,7 @@
         
         <h2>A sub Heading</h2>
         
-        <p>Another parragraph?</p>
+        <p> Another parragraph?</p>
         
         <h3>A h3 sub sub heading?</h3>
         
@@ -149,6 +152,11 @@
                 <li>Multiple seect box: same, in select multiple="multiple"</li>
                 <li>File input box: input type="file" | input type="submit" value="Upload" </li>
                 <li>Submit button: input type="text" | input type="submit"</li>
+                <li>Date: input type="date"</li>
+                <li>Email: input type="email"</li>
+                <li>URL: input type="url"</li>
+                <li>Search: input type="search"</li>
+
             </ul>  
         </p>
         <form action="www.example.com/userdata.php">
@@ -195,11 +203,39 @@
         <p>Grouping form elements:
             <fieldset>
                 <legend>Contact details</legend>
-                <label>Email:  <input type="text" name="email" />
+                <label>Email:  <input type="text" name="email" required="required" />
                 </label> <br>
                 <label>Mobile: <input type="text" name="mobile" />
                 </label> <br>
             </fieldset>
         </p>
+        <p>Add required="required" for fields
+            <form action="http://www.example.com/login/" method="post">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required="required" /></title> <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" required="required" />
+                <input type="submit" value="Submit" />
+        </p>
+        <h2>Others</h2>
+        <h3>Class atributes</h3>
+        <p class="important">p class="important" -> to destcar the hole paragraph, just add the class to any paragraph yo want, and in CSS you can for example pur it in upper case.</p>
+        <p>Also can add it to <span class="gallery">"one phrase"</span> for example with span class="" </p>
+        <h3>Grouping elements in a block</h3>
+        <div id="not-header">
+            <img src="images/phone-flat.png" alt="phone"/>
+            <p>With div, just to have things more ordenadas</p>
+            <ul>
+                <li>blla blaa</li>
+            </ul>
+        </div>
+        <h3>Iframes</h3>
+        To add: iframe src="" <br>
+        <iframe 
+            src="http://maps.google.co.uk/maps?q=moma+new+york &amp;output=embed" 
+            width="450" 
+            height="350"
+            scrolling="no" > 
+        </iframe>
     </body>
 </html>
