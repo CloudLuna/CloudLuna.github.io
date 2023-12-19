@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- Doctype for html5 -->
+<html>
+    <head>
+        <b>This is the head. My projects</b>
+        <title>Tab Title</title>
+        <!-- head definitions go here -->
+        <meta http-equiv="author" content="CloudLuna" />
+        <!-- <meta> gives inf about the website, not seen by user, for engines, etc-->
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <script type="text/javascript"> swfobject.embedSWF("flash/splayer.swf", "bird", "400", "320", "8.0.0");</script> -->
+
+    </head>
+    <body>
+
+        <h1>Contents:</h1>
+        <ul>
+            <li><a href="#top">General</a></li>
+            <li><a href="#list">Lists</a></li>
+            <li><a href="#link">Links</a></li>
+            <li><a href="#img">Images</a></li>
+            <li><a href="#table">Tables</a></li>
+            <li><a href="#form">Forms</a></li>
+            <li><a href="#other">Oders</a></li>
+            <li><a href="#video">Video, Audio</a></li>
+            <li><a href="#top">General</a></li>
+        </ul>
+     
+
+        <h1 id="top">Main heading: h1</h1>
+        <p>A parragraph: <b>p</b></p>
+        <h2>A sub Heading: h2</h2>
+        <p> Another parragraph: <b>p</b></p>
+        <h3>A sub sub heading: h3</h3>
+        <p>Other parragraph in <b>"b" bold or "strong"</b> and <i>"i" italic or "em" emphasis</i> can be <sup>sup</sup> or can be <sub>sub</sub>.<br>And "br" for line break. The <del>del</del> and <ins>ins</ins> words. Also with <s>"s" para tachar</s>
+        <hr> For a line "hr". For an abbreviation <abbr title="Professor">Prof</abbr> use "abbr" and a acronyms as <acronym title="National Aeronautics and Space Administration">NASA</acronym> use "acronym". And a quote: <blockquote cite="http://en.wikipedia.org/wiki/
+        Winnie-the-Pooh">
+         <p>Did you ever stop to think, and forget to start
+         again?</p>
+        </blockquote> </p>
+        <br>
+        <p>Contact with address:
+            <address> 
+                <p><a href="mailto:abc@example.com">abc@example.com</a></p>
+                <p>123 Direction St, State</p>
+            </address> </p>
+        
+        <h2 id="list">Lists</h2>
+        <p>Different types of lists: <b>ol</b>:
+            <ol>
+                <li>"li" for each element</li>
+                <li>next element</li>
+            </ol>
+        </p>       
+        <p>Other list: <b>ul</b>:
+        <ul>
+            <li>"li" also</li>
+            <li>change the numeration/dot</li>
+        </ul></p>
+        <p>Now a definition list: <b>dl</b>:
+        <dl>
+            <dt><b>dt</b> each element</dt>
+            <dd><b>dd</b> the definitions</dd>            
+            <dt>"dt" each element</dt>
+            <dd>"dd" the definitions</dd>
+        </dl></p>
+        <p>Can be mixed and nested:
+        <ul>
+            <li>one element</li>
+            <li>a nested ol
+                <ol>
+                    <li>sub1</li>
+                    <li>nested dl
+                        <dl>
+                            <dt>dict1</dt>
+                            <dd>the meaning</dd>
+                        </dl>
+                    </li>
+                    <li>sub_n</li>
+                </ol>
+            </li>
+            <li>last element</li>
+        </ul></p>
+        
+        <h2 id="link">Links</h2>
+        <p>Links with: <b>a href="www.example.com"</b> <a href="www.example.com">EXAMPLE</a> and to the same site htmls: <a href="helloworld.html">Hello World</a> if the fille is in ../images/hi.jpg just use ../. </p>
+        <p>To open in a new tab add <b>target="_blank"</b>. Ex: <a href="helloworld.html" target="_blank">Hello World new tab</a> 
+        <br>To link to a specific part of same page: 
+        <ol>
+           <li>Add id to the headers: <b>&lt;h1 id="top"&gt;...</b>
+            <ol>
+                <li>* to write &lt; use "<b>& l t ;</b>" and for &gt; "<b>& g t ;</b>"</li>
+           </ol>
+           </li>
+           <li>make a link with:  <b>a href="#top"...</b>   as this: <a href="#top">GO TOP</a></li> 
+        </ol></p>
+        
+        <h2 id="img">Images</h2>
+        <div>
+            <p>Add image with: img <b>src="images/myimage.jpg" alt="Aqui una descripcion for visual impairment" title="the title you want"</b> <img src="images/youtube.png" alt="Aquí una descripcion" title="The title you want" /> ups, too big xD. For that: add: <b>width="50" height="50"</b> to img </p>
+            <hr>
+            <img src="images/youtube.png" alt="Aquí una descripcion" title="The title you want" width="50" height="50" />
+            <p>you can place it before a paragraph</p>
+            <hr>
+            <p><img src="images/youtube.png" alt="Aquí una descripcion" title="The title you want" width="50" height="50" />At the beginning</p>
+            <hr>
+            <p>Or in <img src="images/youtube.png" alt="Aquí una descripcion" title="The title you want" width="50" height="50" /> the middle</p>
+            <hr> 
+            <p><img src="images/youtube.png" alt="Aquí una descripcion" title="The title you want" width="50" height="50" align="right"/> Aligned right or left with: <b>align="right"</b>(in this case right). There is algo vertical aling: <b>"top" "middle" "bottom"</b></p>
+            <p>To add figure caption use: <b>figure &lt;img.../&gt; &lt;figcaption&gt;the caption xD</b> 
+                <figure>
+                    <img src="images/quokka.jpg" alt="MyDescripcion" title="MyTitle" width="50" height="50"/>
+                    <figcaption>Cute quokka</figcaption>
+                </figure></p>
+        </div>
+
+        <h2 id="table">Tables</h2>
+        <p>basic table: <b>table</b> tr (for row) th (for headings) td (for each element). Ex:
+            <table width="40" cellpadding="1" cellspacing="5" border="2"  bgcolor="#efefef">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th scope="col">Saturday</th>
+                        <th scope="col">Sunday</th>
+                        <th scope="col">Monday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">TmaxC:</th>
+                        <td bgcolor="#cccccc">32</td>
+                        <td>28</td>
+                        <td rowspan="2">25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">TminC:</th>
+                        <td colspan="2">23</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row">Tavg:</th>
+                        <td>27</td>
+                        <td>26</td>
+                        <td>25</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </p>
+
+        <h2 id="form">Forms</h2>
+        <p>There are many: Text input, Pass input, Text area, Radio buttons, Checkboxes, Drop down boxes, Submit buttons, Image buttons File upload, etc. <br> All of them are handle with: 
+        <br><b>&lt;form action="www.example.com"&gt; 
+            <br>&lt;p&gt;The text show to the user (Ej: Username) &lt;</b><i>this will change what kind of form is</i><b>... name=""...</b> </p>
+        <p>Types of forms:
+            <ul>
+                <li>Text input: <b>input type="text"</b></li>
+                <li>Pass input: <b>input type="password"</b></li>
+                <li>Text area: <b>textarea </b></li>
+                <li>Radio button: <b>input type="radio"</b></li>                
+                <li>Checkbox: <b>input type="checkbox"</b></li>
+                <li>Drop down list: <b>&lt;select &lt;option value</b></li>
+                <li>Multiple seect box: same, in select add <b>multiple="multiple"</b></li>
+                <li>File input box: <b>input type="file" | input type="submit" value="Upload"</b> </li>
+                <li>Submit button: <b>input type="text" | input type="submit"</b></li>
+                <li>Date: <b>input type="date"</b></li>
+                <li>Email: <b>input type="email"</b></li>
+                <li>URL: <b>input type="url"</b></li>
+                <li>Search: <b>input type="search"</b></li>
+
+            </ul>  
+        </p>
+        <form action="www.example.com/userdata.php">
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="10"/>
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="10" maxlength="10"/>
+            </p>
+            <p>What you think?
+                <textarea name="comments" cols="18" rows="4">Enter your comments</textarea>
+            </p>
+            <p>Select favorite: 
+                <input type="radio" name="animal" value="quokka"/> Quokka
+                <input type="radio" name="animal" value="cat"/> Cat
+                <input type="radio" name="animal" value="emu"/> Emu
+            </p>
+            <p>Select known: 
+                <input type="checkbox" name="known" value="quokka"/> Quokka
+                <input type="checkbox" name="known" value="cat"/> Cat
+                <input type="checkbox" name="known" value="emu"/> Emu
+            </p>
+            <p>Which is/are the most common:
+                <select name="birds" size="2" multiple="multiple">
+                    <option value="noisy">Noisy</option>
+                    <option value="ibis">Ibis</option>
+                    <option value="magpie">MagPie</option>
+                </select>
+            </p>
+            <p>Subscribe!
+                <input type="text" name="email"/>
+                <input type="submit" name="subscribe" value="Subscribe"/>
+                <br>Image button:
+                <input type="image" src="images/subscribe.jpg" width="100" hight="15" align="middle"/>
+            </p>
+        </form>
+        <form action="wwww.example.com/upload.php" method="post">
+            <p>Upload your file
+                <input type="file" name="user-song" /> <br>
+                <input type="submitt" value="Upload"/>
+            </p>
+        </form>
+        <br>And much more! :P
+        <h3>Grouping form elements:</h3>
+        <p> fieldset->  legend | label | input 
+            <fieldset>
+                <legend>Contact details</legend>
+                <label>Email:  <input type="text" name="email" required="required" />
+                </label> <br>
+                <label>Mobile: <input type="text" name="mobile" />
+                </label> <br>
+            </fieldset>
+        </p>
+        <p>Add required="required" for fields
+            <form action="http://www.example.com/login/" method="post">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required="required" /></title> <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" required="required" />
+                <input type="submit" value="Submit" />
+        </p>
+
+        <h2 id="other">Others</h2>
+        <div id="whatever">
+            <h3>Class atributes</h3>
+            <p class="important">p <b>class="important"</b> -> to destacar todo el paragraph, just add the class to any paragraph yo want, and in CSS you can for example pur it in upper case.</p>
+            <p>Also can add the class to just <span class="important">"one phrase"</span> for example with <b>span class=""</b> </p>
+
+            <h3>Grouping elements in a block</h3>
+ 
+            <img src="images/phone-flat.png" alt="phone"/>
+            <p>With div, just to have things more ordenadas in the html</p>
+            <ul>
+                <li>blla blaa</li>
+            </ul>
+            <h3>Iframes</h3>
+            To add: <b>iframe src=""</b> <br>
+            <iframe 
+                src="http://maps.google.co.uk/maps?q=moma+new+york &amp;output=embed" 
+                width="450" 
+                height="350"
+                scrolling="no" > 
+            </iframe>
+        </div>
+
+        <h2 id="video">Video, Audio</h2>
+        <p>Flash, with Javascript, in head add:
+            <br> <b>script type="text/javascript" src="...myobject.js"
+            <br> script type="text/javascript"&gt; swfobject.embedSF("myfolder/bird.swf",
+            "id_of_flash", "400", "300", "8.0.0")</b> 
+            <br> And in body: 
+            <br> <b>div id="id_of_flash" &lt;p&gt;Description</b>
+        <!--<div id="bird"><p>An animation of a bird taking a shower</p></div>--> 
+            <br> yyy, no funcionó xD
+        </p>
+        <p>Video: <br><b>src="video/myvideo.mp4" preload controls</b>. 
+            <br>Audio is similar: <br><b>&lt;audio controls autoplay&gt; &lt;source src=""/&gt;</b> (can have more than 1 source) 
+            <video src="video/elo.mp4"
+             preload controls loop></video>
+        </p>
+
+    </body>
+</html>
