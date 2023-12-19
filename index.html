@@ -7,6 +7,9 @@
         <!-- head definitions go here -->
         <meta http-equiv="author" content="CloudLuna" />
         <!-- <meta> gives inf about the website, not seen by user, for engines, etc-->
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <script type="text/javascript"> swfobject.embedSWF("flash/splayer.swf", "bird", "400", "320", "8.0.0");</script> -->
+
     </head>
     <body>
         <br><a href="https://cloudluna.github.io/helloworld.html"> Project 1: Hello World </a>
@@ -237,5 +240,20 @@
             height="350"
             scrolling="no" > 
         </iframe>
+        <h2>Video, Audio</h2>
+        <p>Flash, with Javascript, in head add:
+            <br> script type="text/javascript" src="...myobject.js"
+            <br> &lt;script type="text/javascript"&gt; swfobject.embedSF("myfolder/bird.swf",
+            "id_of_flash", "400", "300", "8.0.0") 
+            <br> And in body: 
+            <br> div id="id_of_flash" &lt;p&gt;Description
+        <!--<div id="bird"><p>An animation of a bird taking a shower</p></div>--> 
+            <br> yyy, no funcionó xD
+        </p>
+        <p>Video: video src="video/myvideo.mp4" poster="images/im.jpg"
+            <video src="video/elo.mp4"
+             preload controls loop></video>
+        </p>
+
     </body>
 </html>
