@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Title</title>
+    <style>
+body{
+    background-image: url("./images/whale2.jpg");
+}
+header{
+    background-color: #333;
+    text-align: center;
+    margin: -1rem -1rem;
+    color:white;
+}
+h1{
+    padding-top: 1rem;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 3rem;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0.5rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+main{
+    display: flex;
+    padding: 1rem;
+}
+.content{
+    flex:5;
+}
+.sidebar{
+    flex:2;
+    margin: 10px; 
+    background-color: rgba(148, 211, 211, 0.9);
+}
+.prompt{
+    margin: 1%; 
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.menu{
+    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+textarea{
+    margin: 1%;
+    width: 98%;
+}
+div.preferences{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    margin: 1rem -1rem;
+    color:white;
+    padding: 10px 20px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Title</h1>
+        <nav >
+            <a href="./helloworld.html">Go to Blabla</a>
+            <ul>
+                <li><a href="./jetother.html">Log in</a></li>
+                <li><a href="./jetother.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <section class=prompt>
+                <form method="post">
+                    <fieldset>
+                        <legend>Prompt</legend>
+                        <textarea name="prompt" id="prompt" rows="20" cols="40">Generate a menu for 2 people, bla bla bla</textarea>
+                        <input type="submit" value="Generate">
+                    </fieldset> 
+                </form>
+            </section>
+            
+            <section class="menu" >
+                <h2>Menu:</h2>
+                <textarea name="menu" id="menu" rows="20">Sushi para 2 personas
+Ingredients:
+- bla bla bla
+                </textarea>
+            </section>
+        </div>
+
+        <aside class="sidebar">
+            <div class="preferences">
+                <h2>My preferences</h2>
+                <a class="action" href="./layout.html">Edit Preferences</a>
+            </div>
+            <ul>
+                <li>Alergies</li>
+                
+                    <ul>
+                        <li>Peanuts</li>
+                        <li>Gluten</li>
+                    </ul>
+                <li>Does</li>
+                    <ul>
+                        <li>Tomato</li>
+                    </ul>
+                <li>Donts</li>                
+            </ul>
+            ...
+
+        </aside>
+
+    </main>
+</body>
+
+<footer>footer</footer>
+

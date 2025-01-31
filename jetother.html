@@ -1,0 +1,90 @@
+<link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <h1>h1</h1>
+    </head>
+    <body>
+        <img src="./images/quokka.jpg" alt="Curious Quokka">
+        <div>
+            Inside div
+            <p>P</p>
+            <br> Bye-bye World<!-- the content goes here -->        
+            Still inside div
+        </div>
+        <div>
+            Other div 
+            <ul class="a">
+                <li>Unordered list item 1</li>
+                <li>Whales</li>
+                <li>Ray fish</li>
+            </ul>
+            Still in div 2
+            <ol class="b">
+                <li>Ordered list item 1</li>
+                <li>tiburoncin</li>
+                <li>orca</li>
+            </ol>
+        </div>
+    <p>Outside div</p>
+    <table>
+        <tr>
+          <th>Family</th>
+          <th>Genus</th>
+        </tr>
+        <tr>
+          <td>Delphinidae</td>
+          <td>Orcinus</td>
+        </tr>
+        <tr>
+          <td>Delphinidae</td>
+          <td>Cephalorhynchus</td>
+        </tr>
+      </table>
+      <p>fvd <br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc<br> dfv <br> xvxc
+        xvxcxc 
+      </p>
+
+    </body>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      <fieldset>
+        <legend>Blablabla</legend>
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+
+        <input value="Attributes" readonly disabled size="20" maxlength="20" min="1" max="5" multiple pattern="[A-Z]{3}" placeholder="" required step="3" autofocus width="" height="20" autocomplete>
+        
+        <select id="cars" name="cars" size="3" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="fiat" selected>Fiat</option>
+        </select>
+        
+        <textarea name="message" rows="10" cols="30" >The cat was playing in the garden...
+        </textarea>
+        
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        
+        <input list="browsers">  
+        <datalist id="browsers">  
+          <option value="Edge">  
+          <option value="Firefox">  
+          <option value="Chrome">  
+          <option value="Opera">  
+          <option value="Safari">  
+        </datalist>  
+        
+        0  
+        <input type="range" id="a" name="a" value="50">  
+        100 +  
+        <input type="number" id="b" name="b" value="50">  
+        =  
+        <output name="x" for="a b"></output>  
+        <br><br>  
+        
+        <input type="submit">  
+        <input type="submit" formaction="" formenctype="" formmethod="post" formtarget="" formnovalidate value="Submit2">
+      
+      </fieldset>
+    </form>
+</html>

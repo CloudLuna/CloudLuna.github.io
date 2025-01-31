@@ -1,0 +1,101 @@
+html { font-family:'Courier New', Courier, monospace;}
+
+
+nav { 
+    display: flex; 
+    align-items: center;
+    background-color: rgba(45, 112, 238,0.8);
+    color: whitesmoke;
+}
+nav h1 {
+    background-color: rgba(102, 51, 153,0.3);
+    flex:auto; 
+    font-size:large;
+    text-shadow: 3px 3px 2px rgb(34, 14, 211);
+}
+nav ul{
+    background-color: red;
+    list-style-type: none;
+}
+nav ul li{
+    background-color: aqua;
+    display: contents;
+}
+.content{
+    background-color: rgba(236, 172, 130, 0.7);
+}
+body {
+    background-image: url("./images/chef.jpg");
+}
+header{
+    font-family:cursive;
+    font-size: xx-large;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(100, 183, 216, 0.6);
+}  
+/*h1, nav {
+
+    background-color: rgb(45, 112, 238);
+    text-shadow: 3px 3px 2px rgb(34, 14, 211);
+}*/
+div {
+    /*background-image: url("https://media.zenfs.com/en/video.storyful.com/0fed35ad46ec321419a84c50942d2789");*/
+    background: rgba(88, 235, 144, 0.7); /*text not opaco*/
+    max-width: 600px;
+    margin: auto;
+    border: 5px dotted red;
+    padding: 20px; box-sizing: border-box;
+    display:flex;
+}
+div h1{flex:auto;}
+
+
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+    color: red;
+    margin-left: 20px;
+    opacity: 0.3; /*text also opaco*/
+    background-color: yellow;
+}
+
+ul.a{
+    list-style: circle inside url(./images/phone-flat.png);
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul li{
+    background: #ffe5e5;
+    margin: 5px;
+}
+
+ol.b{
+    list-style-type: none;
+}
+
+ol li{
+    display:inline;
+    background-color: red;
+}
+
+
+  
+table {
+    background: aqua url("./images/whale2.jpg");
+    border: 1px solid;
+    width: 70%;
+    /*border-collapse: collapse;*/
+}
+th {border: 1px solid; height: 30px;}
+tr:hover {background-color: aquamarine;}
+
+img{
+    position:fixed;
+    z-index: 1;
+}
+form{
+    background-color: aliceblue;
+}
