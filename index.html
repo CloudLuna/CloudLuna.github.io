@@ -1,13 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <b>My Projects</b>
-        <title>My Projects</title>
-    </head>
-    <body>
-        <br><a href="https://cloudluna.github.io/helloworld.html"> Project 1: Proximamennte ... </a>
-        <br><a href="https://my-first-workers-ai.constanza-lorca-luna.workers.dev/"> Project 2: Cloudflare AI </a>
-        <br><a href="learning_html.html"> Project 2: HTML summary </a>
-        <br><a href="https://cloudluna.github.io/helloworld.html"> Project 1: Hello World </a>
-    </body>
-</html>
+
+<head>
+    <title>Constanza Lorca</title>
+    <style>
+body{
+    background-color:rgb(117, 189, 189);
+    
+}
+main{
+    display: flex;
+    padding: 0rem;
+    height: 100vh;
+    background-image:url("./images/whale2.jpg");
+}
+.sidebar{
+    background-color: rgba(13, 31, 31, 0.98);
+    color:white;
+    height: 100%;
+    width: 30%;
+    min-width: 1rem;
+    max-width: 30rem;
+}
+.sidebar p{
+    color: rgb(188, 223, 229);
+    margin: 3rem 1rem;
+}
+.content{
+    background-image:url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    min-width: 70%;
+}
+header{
+    background-color: #000000;
+    text-align: center;
+    color:white;
+    margin-top: -1rem;
+}
+h1 h3{
+    padding-top: 1rem;
+    text-align: center;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 3rem;
+}
+.projects{
+
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+article{
+    background-color: rgba(181, 211, 208, 0.8);
+    width: 20%;
+    min-width: 10rem;
+    height: 10rem;
+    border-style: double;
+    margin: 1rem;
+    
+}
+article img{
+    width:9rem;
+    max-height: 9rem;
+}
+div.preferences{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    margin: 1rem -1rem;
+    color:white;
+    padding: 10px 20px;
+}
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar">
+            <h1>Hi, I'm Cony</h1>
+            <p>
+                I'm a Software Engineer with hands-on experience in Python, cloud platforms (AWS, Azure and GCP) and CI/CD tools. Proficient using Bash and Python with deep interest in AI technologies.<br><br>
+                Naturally curious with passion for continuous learning</span>
+            </p>
+        </aside> 
+        <div class="content">
+            <header>
+                <h1>My projects</h1>
+                <nav >
+                    <a href="./helloworld.html"></a>
+                </nav>
+            </header>
+            <p> This site is under construction...</p>
+            <section class="projects">
+                <article>
+                    <h3>Cloudflare Worker</h3>
+                    <img src="./images/Cloudflare_Logo.png" alt="Cloudflare worker">
+                    <br><a href="https://my-first-workers-ai.constanza-lorca-luna.workers.dev/">Go to site</a>
+                </article>
+                <article>
+                    <br><a href="learning_html.html"> HTML summary </a>
+                </article>                
+                <article>
+                    <br><a href="index.html"> Comming soon... </a>
+                </article>                
+         
+            </section>
+            <!--<footer>footer</footer>
+        -->
+        </div>
+    </main>
+</body>
+
+
